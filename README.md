@@ -5,8 +5,7 @@ en cuenta factores como la edad, el sexo, la localización, la hora, la estació
 podrán ser vendidos a distintas cadenas de supermercados para poder obtener un beneficio económico.
 
 ## Historias de usuario
->[[HU1]](https://github.com/aleveji/BuscaRecetas/issues/2) Usuario estándar: filtrado de recetas  
->[[HU2]](https://github.com/aleveji/BuscaRecetas/issues/3) Usuario estándar: Sistema de recomendación de recetas predeterminado  
+>[[HU0]](https://github.com/aleveji/BuscaRecetas/issues/6) Usuario estándar -> Obtener información ingredientes
 
 # Documentación adicional
 >[Tipos de usuarios](https://github.com/aleveji/BuscaRecetas/blob/objetivo1/docs/tipos_usuarios.md)  
