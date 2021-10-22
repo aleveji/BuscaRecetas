@@ -7,4 +7,8 @@ class Ingrediente{
         this.hidratos = hidratos;
         this.proteinas = proteinas;
     }
+
+    extraccionDatos(){
+        ;
+    }
 }
