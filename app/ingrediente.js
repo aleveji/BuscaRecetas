@@ -1,5 +1,6 @@
 
 class Ingrediente{
+
     constructor(nombre, calorias, grasas, hidratos, proteinas){
         this.nombre = nombre;
         this.calorias = calorias;
@@ -8,7 +9,11 @@ class Ingrediente{
         this.proteinas = proteinas;
     }
 
-    extraccionDatos(){
-        ;
+    getNombre(){
+        return this.nombre;
+    }
+
+    getCalorias(){
+        return this.calorias;
     }
 }
