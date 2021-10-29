@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/aleveji/BuscaRecetas#readme",
   "devDependencies": {
-    "grunt": 1.4.1,
+    "grunt": "1.4.1",
     "grunt-mocha-test"
   }
 }
