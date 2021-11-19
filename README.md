@@ -10,3 +10,4 @@ podrán ser vendidos a distintas cadenas de supermercados para poder obtener un 
 # Documentación adicional
 >[Tipos de usuarios](https://github.com/aleveji/BuscaRecetas/blob/objetivo1/docs/tipos_usuarios.md)  
 >[*User journey*](https://github.com/aleveji/BuscaRecetas/blob/objetivo1/docs/user_journey.md)
+>[Justificación de la elección del gestor de tareas](https://github.com/aleveji/BuscaRecetas/blob/objetivo3/docs/eleccion_gestor_tareas.md)
