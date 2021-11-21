@@ -8,7 +8,7 @@
     "test": "app/test"
   },
   "scripts": {
-    "check": "check-syntax app/ingrediente.js",
+    "check": "node --check app/*.js",
     "test": "mocha"
   },
   "repository": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/aleveji/BuscaRecetas#readme",
   "dependencies": {
-    "check-syntax": "^0.2.0",
     "mocha": "^9.1.3"
   }
 }
