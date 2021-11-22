@@ -1,0 +1,27 @@
+{
+  "name": "buscarecetas",
+  "version": "0.0.4",
+  "description": "La idea del proyecto consiste en una aplicación que recomienda recetas según los ingredientes que le indiquemos que tenemos disponibles en casa. Se almacenarán todas las búsquedas que se realicen teniendo en cuenta factores como la edad, el sexo, la localización, la hora, la estación del año... Todos esos datos podrán ser vendidos a distintas cadenas de supermercados para poder obtener un beneficio económico.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "app/test"
+  },
+  "scripts": {
+    "check": "node --check app/*.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleveji/BuscaRecetas.git"
+  },
+  "author": "aleveji",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aleveji/BuscaRecetas/issues"
+  },
+  "homepage": "https://github.com/aleveji/BuscaRecetas#readme",
+  "dependencies": {
+    "mocha": "^9.1.3"
+  }
+}
