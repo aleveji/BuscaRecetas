@@ -8,7 +8,9 @@ utilizar _assert_ que viene incluido con Node.js para no instalar más dependenc
 aunque es sencillo, por ahora cubre mis necesidades para elaborar los test de mi proyecto.
 
 Test **Mocha**:
-![Mocha test](/img/mocha_test.png)
+
+![Mocha test](img/mocha_test.png)
 
 Test **Jest**:
-![Jest test](/img/jest_test.png)
+
+![Jest test](img/jest_test.png)
