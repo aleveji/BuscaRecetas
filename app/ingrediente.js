@@ -21,3 +21,5 @@ class Ingrediente {
         return "Ingrediente -> " + this.nombre + " [Calorias: " + this.calorias + ", Grasas: " + this.grasas + ", Hidratos: " + this.hidratos + ", Proteinas: " + this.proteinas + "]";
     }
 }
+
+module.exports.Ingrediente = Ingrediente;
