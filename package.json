@@ -9,7 +9,7 @@
   },
   "scripts": {
     "check": "node --check app/*.js",
-    "test": "mocha"
+    "test": "mocha app/test/**/*.js"
   },
   "repository": {
     "type": "git",
