@@ -9,7 +9,7 @@
   },
   "scripts": {
     "check": "node --check app/*.js",
-    "test": "mocha"
+    "test": "aqa"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/aleveji/BuscaRecetas#readme",
   "dependencies": {
-    "mocha": "^9.1.3"
+    "aqa": "^1.2.14"
   }
 }
+

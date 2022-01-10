@@ -3,4 +3,4 @@ entidad: app/ingrediente.js
 automatizar:
   fichero: package.json
   orden: npm run
-
+test: app/test/test.js
