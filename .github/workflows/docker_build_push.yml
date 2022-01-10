@@ -2,10 +2,10 @@ name: Build and push Docker Image
 
 on:
   push:
-  paths:
-    - 'Dockerfile'
-    - 'package.json'
-    - 'package-lock.json'
+    paths:
+      - 'Dockerfile'
+      - 'package.json'
+      - 'package-lock.json'
 
 jobs:
   docker:
