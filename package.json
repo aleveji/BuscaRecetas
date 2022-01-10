@@ -9,7 +9,9 @@
   },
   "scripts": {
     "check": "node --check app/*.js",
-    "test": "aqa"
+    "test": "aqa",
+    "docker-build": "docker build -t aleveji/buscarecetas .",
+    "docker-run": "docker run -t -v `pwd`:/app/test aleveji/buscarecetas"
   },
   "repository": {
     "type": "git",
