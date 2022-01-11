@@ -18,3 +18,6 @@ podrán ser vendidos a distintas cadenas de supermercados para poder obtener un 
 Una vez descargado el repo e instalado Node.js, tras ejecutar **npm install**, están disponibles las siguientes órdenes:
  - Para comprobar que la sintaxis de los ficheros es correcta -> **npm run check**
  - Para ejecutar los tests -> **npm run test**
+ - Pare ejecutar los tests en un contenedor:
+   - Para crear el contenedor -> **npm run docker-build**
+   - Para ejecutar los tests -> **npm run docker-run**
