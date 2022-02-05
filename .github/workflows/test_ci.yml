@@ -15,6 +15,6 @@ jobs:
         node-version: [14, 16, 17]
     
     steps:
-    - run: npm ci
+    - run: npm install
     - run: npm run test
 
