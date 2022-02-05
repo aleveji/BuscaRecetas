@@ -1,0 +1,39 @@
+trigger:
+	branches:
+		include:
+		- ''
+	
+	paths:
+		include:
+		- app
+		- azure.yml
+
+pr:
+	branches:
+		include:
+		- ''
+	
+	paths:
+		include:
+		- app
+		- azure.yml
+
+pool:
+	vmImage: 'ubuntu-latest'
+
+strategy:
+	matrix:
+		node_14:
+			node_version: 14
+		node_16:
+			node_version: 16
+		node_17:
+			node_version: 17
+
+steps:
+- task: NodeTool@0
+	inputs:
+		versionSpec: $(node_version)
+- script: npm install
+- script: npm run test
+
