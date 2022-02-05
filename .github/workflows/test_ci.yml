@@ -1,0 +1,20 @@
+name: Test CI
+
+on:
+  push:
+    paths:
+      - 'app'
+      - 'azure.yml'
+      - '.github/workflows/test_ci.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14, 16, 17]
+    
+    steps:
+    - run: npm ci
+    - run: npm run test
+
