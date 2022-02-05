@@ -1,8 +1,7 @@
 trigger:
   branches:
     include:
-    - ''
-	
+    - '*'
   paths:
     include:
     - app
@@ -11,8 +10,7 @@ trigger:
 pr:
   branches:
     include:
-    - ''
-	
+    - '*'
   paths:
     include:
     - app
