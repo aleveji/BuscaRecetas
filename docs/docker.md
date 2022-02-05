@@ -1,5 +1,5 @@
-#Elección imagen docker
-## node:16.13.0-alpine
+# Elección imagen docker
+## node:16.13.0-slim
 
 Criterios de elección de la imagen de Docker:
  - Soporte para la versión que utilizo de Node.js (v16.13.0) ya que todo lo utilizo para mi proyecto
@@ -14,20 +14,20 @@ Al principió opté por tres versiones que se adaptaban a mis criterios:
  - node:16.13.0-alpine -> imagen oficial de node basada en Alpine con tamaño muy reducido
 
 Las tres opciones soportaban mi versión de Node.js y estaban actualizas recientemente, por lo que para quedarme con
-una realicé pruebas para elegir la que mejor relación espacio/rendimiento tuviera:
- - node:16.13.0 -> 905MB/69ms = 13,12 MB/ms
+una realicé pruebas para elegir la que mejor rendimiento tuviera:
+ - node:16.13.0 -> 69ms
  
    ![Size node:16.13.0](img/size_docker_node_16.png)
    
    ![Test node:16.13.0](img/test_node_16.png)
  
- - node:16.13.0-slim -> 175MB/68ms = 2,57 MB/ms
+ - node:16.13.0-slim -> **68ms**
  
    ![Size node:16.13.0-slim](img/size_docker_node_16_slim.png)
    
    ![Test node:16.13.0-slim](img/test_node_slim.png)
  
- - node:16.13.0-alpine -> 112MB/84ms = **1,33 MB/ms**
+ - node:16.13.0-alpine -> 84ms
  
    ![Size node:16.13.0-alpine](img/size_docker_node_16_alpine.png)
    
