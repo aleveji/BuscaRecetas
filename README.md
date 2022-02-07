@@ -13,6 +13,7 @@ podrán ser vendidos a distintas cadenas de supermercados para poder obtener un 
 >[Justificación de la elección del gestor de tareas](https://github.com/aleveji/BuscaRecetas/blob/objetivo3/docs/eleccion_gestor_tareas.md)
 >[Justificación de la elección del framework de tests](https://github.com/aleveji/BuscaRecetas/blob/objetivo4/docs/eleccion_framework_test.md)
 >[Justificación de la elección de la imagen del contenedor](https://github.com/aleveji/BuscaRecetas/blob/objetivo5/docs/docker.md)
+>[Justificación de la elección de los servicios de CI](https://github.com/aleveji/BuscaRecetas/blob/objetivo6/docs/ci.md)
 
 ## Órdenes disponibles
 Una vez descargado el repo e instalado Node.js, tras ejecutar **npm install**, están disponibles las siguientes órdenes:
