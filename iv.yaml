@@ -4,3 +4,5 @@ automatizar:
   fichero: package.json
   orden: npm run
 test: app/test/test.js
+CI: .github/workflows/test_ci.yml
+
