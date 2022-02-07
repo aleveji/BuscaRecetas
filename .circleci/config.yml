@@ -9,5 +9,5 @@ workflows:
       - node/test:
           matrix:
             parameters:
-              version: ["12", "14", "16"]
+              version: ["12.22", "14.19", "16.13"]
 
