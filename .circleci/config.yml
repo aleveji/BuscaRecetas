@@ -1,0 +1,13 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.1
+
+workflows:
+  run_tests:
+    jobs:
+      - node/test:
+          matrix:
+            parameters:
+              version: ["12.22", "14.19", "16.13"]
+

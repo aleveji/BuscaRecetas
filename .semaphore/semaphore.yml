@@ -1,0 +1,14 @@
+version: v1.0
+name: Docker test
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu2004
+blocks:
+  - name: Docker
+    task:
+      jobs:
+        - name: Test
+          commands:
+            - checkout
+            - 'docker run -t -v `pwd`:/app/test aleveji/buscarecetas'
